@@ -1,0 +1,123 @@
+@font-face {
+    font-family: airbnb2;
+    src: url("/assets/font/AirbnbCereal_W_Md.otf");
+}
+
+@font-face {
+    font-family: airbnb;
+    src: url("/assets/font/AirbnbCereal_W_Bd.otf");
+}
+
+.container-custom-navbar {
+    height: 100px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: #2E266F;
+    font-size: 15px;
+    margin-left: 30px;
+    font-family: airbnb2;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar li a:hover {
+    color: white;
+    font-size: large;
+    border: 1px solid #EFC81A;
+    box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
+    border-radius: 6px;
+    width: 345px;
+    height: 40px;
+    size: 16px;
+    padding: 6px;
+    box-sizing: border-box;
+    height: 50px;
+    background-color: #EFC81A !important;
+}
+
+/* .profile-user .picture-user {
+    border: none;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+} */
+
+.profile-user .picture-user img {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+.profile-user span {
+    font-size: 15px;
+    font-family: airbnb;
+}
+
+.container-custom-profile {
+    height: 250px;
+}
+
+.container-custom-history {
+    height: auto;
+    margin-bottom: 300px;
+}
+
+.container-custom-history .history-user .card {
+    border: none;
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+}
+
+.container-custom-history .history-user .card img {
+    margin: 10px;
+}
+
+.container-custom-history .history-user .card .card-img-overlay h3{
+    color: white;
+    padding-top: 220px;
+    font-family: airbnb2;
+    padding-left: 10px;
+}
+
+.container-custom-history .history-user button {
+    font-family: airbnb2;
+}
+
+.container-custom-profile .profile-user .btn-edit-photo {
+    border: none;
+    background-color: #E7E7E7;
+    font-family: airbnb2;
+    font-size: 14px;
+    width: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.container-custom-profile .profile-user .btn-custom-edit {
+    border: none;
+    background-color: #E7E7E7;
+    font-family: airbnb2;
+    font-size: 14px;
+    width: 200px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+/* CSS FOOTER */
+footer {
+    background-color: #EFC81A;
+    height: 70px;
+}
+
+footer ul li {
+    color: #707070;;
+    font-size: 15px;
+    list-style: none;
+}

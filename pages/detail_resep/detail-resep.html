@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/pages/detail_resep/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Detail Resep</title>
+</head>
+
+<body>
+    <!-- Start Navbar -->
+    <section>
+        <div class="container">
+            <nav class="mt-4 navbar-custom navbar-expand-lg navbar-light">
+                <div class="container-fluid container-custom-navbar">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-icon"
+                        aria-controls="navbar-icon" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbar-icon">
+                        <ul>
+                            <li class="list-inline-item">
+                                <a class="active" href="../../index.html">Home</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="/pages/add_recipes/add-recipes.html">Add Recipe</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="/pages/profile/profile.html">Profile</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- End Navbar -->
+
+    <!-- Start Detail Recipe -->
+    <section>
+        <div class="container container-recipe">
+            <div class="title-recipe text-center">
+                <h1>Loream Sandwhich</h1>
+            </div>
+            <div class="align-items-center image-recipe text-center">
+                <img src=" /assets/img/Rectangle 313 (1).svg" class="img-fluid" alt="">
+                <button class="button-save">
+                    <i class="fa-regular fa-bookmark"></i>
+                </button>
+                <button class="button-like">
+                    <i class="fa-regular fa-thumbs-up"></i>
+                </button>
+            </div>
+            <div class="detail-recipe">
+                <h3>Ingredients</h3>
+                <ul>
+                    <li>- 2 Eggs</li>
+                    <li>- 2 Tbsp Mayonnaise</li>
+                    <li>- 3 Slice Bread</li>
+                    <li>- A Little Butter</li>
+                    <li>- 1/3 Cartom Of Cress</li>
+                    <li>- 2-3 Slices Of Tomato Or A Lettuce Leaf And A Slice Of Ham Or Cheese</li>
+                    <li>- Crips, To Serve</li>
+                </ul>
+            </div>
+            <div class="video-step">
+                <h3 class="mb-3">Video Step</h3>
+                <ul>
+                    <li>
+                        <a href="/pages/detail_video_recipes/detail-video-recipes.html">
+                            <button>
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                        </a>
+                    </li>
+                    <li>
+                        <button><i class="fa-solid fa-play"></i></i></button>
+                    </li>
+                    <li>
+                        <button><i class="fa-solid fa-play"></i></i></button>
+                    </li>
+                    <li>
+                        <button><i class="fa-solid fa-play"></i></i></button>
+                    </li>
+                </ul>
+            </div>
+            <div class="comments text-center">
+                <textarea name="" id="" cols=" 30" rows="10">Comment : </textarea>
+                <button class="btn-custom mt-3">Send</button>
+            </div>
+            <div class="show-comments">
+                <div class="row">
+                    <h3 class="mt-5">Comments</h3>
+                    <div class="col-md-1 mt-2 side-left-comments text-center">
+                        <img src="/assets/img/Ellipse 128.svg" alt="">
+                    </div>
+                    <div class="col-md-11 mt-2 side-right-comments">
+                        <h6>Ayudia</h6>
+                        <span>Nice Recipe. Simple And Delicious, Thank You</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Detail Recipe -->
+
+    <!-- Start Footer -->
+    <section>
+        <footer class="text-center">
+            <h1 class="mb-3">Eat, Cook, Repeat</h1>
+            <span>Share Your Best Recipe By Uploading Here!</span>
+            <ul>
+                <li class="list-inline-item">Product</li>
+                <li class="list-inline-item">Company</li>
+                <li class="list-inline-item">Learn More</li>
+                <li class="list-inline-item">Get in Touch</li>
+            </ul>
+        </footer>
+    </section>
+    <!-- End Footer -->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

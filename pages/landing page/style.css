@@ -1,0 +1,328 @@
+@font-face {
+    font-family: airbnb;
+    src: url("/assets/font/AirbnbCereal_W_Bd.otf");
+}
+
+@font-face {
+    font-family: airbnb2;
+    src: url("/assets/font/AirbnbCereal_W_Md.otf");
+}
+
+
+
+/* CSS PAGE HOME */
+
+.container-home {
+    height: 700px;
+    position: relative;
+}
+
+.side-left {
+    background-color: #FFF5EC;
+    height: 700px;
+}
+
+.side-right {
+    background-color: #EFC81A;
+    height: 700px;
+}
+
+.side-right .navbar-right .user .user-custom img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.side-right .navbar-right .user .user-custom a {
+    margin-left: 0px;
+}
+
+.navbar-left li a {
+    text-decoration: none;
+    color: #2E266F;
+    font-size: 15px;
+    margin-left: 30px;
+    font-family: airbnb2;
+}
+
+.navbar-left {
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar-left li a:hover {
+    color: white;
+    font-size: large;
+    border: 1px solid #EFC81A;
+    box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
+    border-radius: 6px;
+    width: 345px;
+    height: 40px;
+    size: 16px;
+    padding: 6px;
+    box-sizing: border-box;
+    height: 50px;
+    background-color: #EFC81A !important;
+}
+
+.navbar-right {
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar-right li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin: 17px;
+    font-family: airbnb2;
+}
+
+.container-custom-navbar .collapse ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.content {
+    width: 30%;
+    position: absolute;
+    color: #2E266F;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+.content h1 {
+    font-size: 50px;
+    font-family: airbnb;
+}
+
+.content .search {
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 38px;
+}
+
+.content .icon {
+    position: absolute;
+    padding-left: 14px;
+    padding-top: 14px;
+    color: #C4C4C4;
+}
+
+.decoration img {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    background-size: 300px, 300px, 300px;
+    background-position:left top, left top, left bottom;
+    background-repeat: no-repeat;
+    background-image: url("/assets/img/—Pngtree—lettuce_1175257 1.svg"), url("/assets/img/Make Vector BG.svg"), url("/assets/img/Make Vector BG-1.svg");
+}
+
+/* CSS PAGE POPULAR FOR YOU */
+
+.container-popular {
+    background-color: #FFF5EC;
+    height: 700px;
+    position: relative;
+}
+
+.container-popular .popular-title {
+    height: 130px;
+}
+
+.container-popular .popular-title .bg-title {
+    background-color: #EFC81A;
+    width: 10px;
+    height: 70px;
+    margin-left: 50px;
+}
+
+.container-popular .popular-title h1 {
+    margin-left: 25px;
+    margin-top: 10px;
+    position: absolute;
+    color: #2E266F;
+    font-family: airbnb2;
+}
+
+.container-card .card {
+    border: none;
+    border-radius: 15px;
+    position: relative;
+}
+
+.container-card .card .card-img-overlay h2{
+    color: white;
+    padding-top: 350px;
+    font-family: airbnb2;
+    padding-left: 10px;
+}
+
+/* CSS PAGE NEW RECIPE */
+
+.container-recipe {
+    height: 800px;
+    background-color: #FFF5EC;
+}
+
+.container-recipe .recipe-title {
+    height: 150px;
+}
+
+.container-recipe .recipe-title .bg-recipe-yellow {
+    background-color: #EFC81A;
+    width: 10px;
+    height: 70px;
+    margin-left: 50px;
+}
+
+.container-recipe .recipe-title .bg-recipe-yellow h1 {
+    margin-left: 25px;
+    margin-top: 10px;
+    position: absolute;
+    color: #2E266F;
+    font-family: airbnb2;
+}
+
+.container-recipe .recipe-body .right-recipe .bg-recipe {
+    background-color: #EFC81A;
+    width: 250px;
+    height: 450px;
+}
+
+.container-recipe .recipe-body .right-recipe .bg-recipe img {
+    width: 400px;
+    height: 450px;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 52px;
+}
+
+.container-recipe .recipe-body .left-recipe {
+   color: #3F3A3A;
+   margin-top: 70px;
+}
+
+.container-recipe .recipe-body .left-recipe h2 {
+    font-size: 35px;
+    width: 50%;
+}
+
+.container-recipe .recipe-body .left-recipe hr {
+    font-size: 30px;
+    width: 10%;
+    border: 1px solid black;
+}
+
+.container-recipe .recipe-body .left-recipe span {
+    font-size: 20px;
+    color: #3F3A3A;
+}
+
+.container-recipe .recipe-body .left-recipe button {
+        background-color: #EFC81A !important;
+        color: white !important;
+        width: 200px;
+        height: 50px;
+        box-sizing: border-box;
+        border: 1px solid #EFC81A;
+        box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
+        border-radius: 6px;
+}
+
+/* PAGE POPULAR RECIPE */
+.container-popular-recipe {
+    height: 1200px;
+    background-color: #FFF5EC;
+}
+
+.container-popular-recipe .popular-recipe-title {
+    height: 130px;
+}
+
+.container-popular-recipe .popular-recipe-title .bg-popular-recipe {
+    background-color: #EFC81A;
+    width: 10px;
+    height: 70px;
+    margin-left: 50px;
+}
+
+.container-popular-recipe .popular-recipe-title h1 {
+    margin-left: 25px;
+    margin-top: 10px;
+    position: absolute;
+    color: #2E266F;
+    font-family: airbnb2;
+}
+
+.container-popular-recipe .container-card .card {
+    border: none;
+    border-radius: 15px;
+    position: relative;
+}
+
+.container-popular-recipe .container-card .card h3 {
+    position: absolute;
+    color: #3F3A3A;
+    padding-left: 30px;
+    padding-top: 310px;
+    width: 50%;
+    font-family: airbnb2;
+}
+
+.container-popular-recipe .container-card {
+    margin: 50px;
+}
+
+/* CSS FOOTER */
+footer {
+    background-color: #EFC81A;
+    height: 350px;
+}
+
+footer h1 {
+    color: #2E266F;
+    font-size: 50px;
+    padding-top: 120px;
+    font-family: airbnb2;
+}
+
+footer span {
+    color:  #707070;;
+}
+
+footer ul li {
+    color: #707070;;
+    font-size: 15px;
+    list-style: none;
+    margin-top: 90px;
+}
+
+@media screen and (max-width:720px){
+    .decoration {
+       display: none
+    }
+
+    .side-right {
+        display: none;
+    }
+
+    .content .search {
+        width: 100%;
+    }
+
+    .content h1 {
+        font-size: 30px;
+    }
+
+    .container-custom-navbar .collapse ul li {
+        list-style: none;
+        display: list-item;
+        margin-bottom: 10px;
+    }
+}
