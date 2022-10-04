@@ -28,13 +28,13 @@
                 <div class="collapse navbar-collapse" id="navbar-icon">
                     <ul>
                         <li class="list-inline-item">
-                            <a class="active" href="../../index.html">Home</a>
+                            <a href="../../index.html">Home</a>
                         </li>
                         <li class="list-inline-item">
                             <a href="/pages/add_recipes/add-recipes.html">Add Recipe</a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="/pages/profile/profile.html">Profile</a>
+                            <a href="/pages/profile/profile.html"><u>Profile</u></a>
                         </li>
                     </ul>
                 </div>
@@ -60,8 +60,11 @@
                 </button>
                 <div class="collapse multi-collapse text-center" id="editprofile">
                     <div class="row">
-                        <div class="col-12">
-                            <button class="btn btn-edit-photo">Change Photo Profile</button>
+                        <div class="col-12 change_profile">
+                            <label for="addImage">
+                                <a class="btn btn-edit-photo">Change Photo Profile</a>
+                            </label>
+                            <input type="file" name="addImage" id="addImage">
                         </div>
                         <div class="col-12">
                             <a href="/pages/reset_password/reset-password.html">

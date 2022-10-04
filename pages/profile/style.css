@@ -99,6 +99,10 @@
     border-top-right-radius: 20px;
 }
 
+.container-custom-profile .profile-user .change_profile > input {
+    display: none;
+}
+
 .container-custom-profile .profile-user .btn-custom-edit {
     border: none;
     background-color: #E7E7E7;

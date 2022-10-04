@@ -51,6 +51,28 @@
     color: #666666;
 }
 
+.add-recipes .rectangle {
+    width: 100%;
+    background-color: #F6F5F4;
+    height: 300px;
+    border-radius: 10px;
+    border: none;
+}
+
+.add-recipes .rectangle .icon i {
+    padding-top: 120px;
+    color: #666666;
+}
+
+.add-recipes .rectangle .image_upload > input{
+    display:none;
+}
+
+.add-recipes .rectangle .image_upload label a {
+    color: #666666;
+    font-size: 15px;
+}
+
 .btn-warning{
     background-color: #EFC81A !important;
     color: white !important;

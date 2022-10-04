@@ -49,6 +49,10 @@ form input {
   height: 100vh;
  }
 
+ input[type="text"]:focus {
+  border: 1px solid #EFC81A;
+}
+
  @media screen and (max-width:720px){
   .bg-image {
      display: none
